@@ -1,2 +1,2 @@
 # Wordpress
-<?php echo get_cat_name(4) ?>
+Заголовок рубрики - <?php echo get_cat_name(ID) ?>
