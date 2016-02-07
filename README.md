@@ -2,4 +2,4 @@
 - Заголовок сайта - <?php echo $blog_title = get_bloginfo( 'name' ); ?>  
 - Описание сайта - <?php echo $blog_title = get_bloginfo( 'description' ); ?>  
 - Заголовок рубрики - <?php echo get_cat_name(ID) ?>  
-- Описание рубрики<?php echo category_description( $category_id ); ?>
+- Описание рубрики - <?php echo category_description( $category_id ); ?>
