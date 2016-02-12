@@ -11,4 +11,8 @@
   <?php the_content(); ?>  
   <?php the_post_thumbnail(array(100, 100)); ?>  
 
-  <? endwhile; endif; wp_reset_query(); ?>
+  <? endwhile; endif; wp_reset_query(); ?>  
+  
+  
+  
+  <?php echo get_post_meta($post->ID, 'year', true); ?>
