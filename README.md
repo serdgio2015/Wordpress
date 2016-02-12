@@ -14,5 +14,4 @@
   <? endwhile; endif; wp_reset_query(); ?>  
   
   
-  
-  - Дополнительное поле - <?php echo get_post_meta($post->ID, 'year', true); ?>
+- Дополнительное поле - <?php echo get_post_meta($post->ID, 'year', true); ?>
