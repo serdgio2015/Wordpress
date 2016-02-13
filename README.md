@@ -3,7 +3,7 @@
 - Описание сайта - <?php echo $blog_title = get_bloginfo( 'description' ); ?>  
 - Заголовок рубрики - <?php echo get_cat_name(ID) ?>  
 - Описание рубрики - <?php echo category_description( $category_id ); ?>  
-
+- Вывод цитаты - <?php the_excerpt(); ?>
   <?php if ( have_posts() ) : query_posts('p=1');  
     while (have_posts()) : the_post(); ?>  
 
