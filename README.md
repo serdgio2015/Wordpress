@@ -18,7 +18,7 @@
 - Ссылка на большую картинку:  
   <?php   
 
-								    $large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id(), 'large' );  
-								    echo $large_image_url[0]  
+  $large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id(), 'large' );  
+  echo $large_image_url[0]  
 
-				    			 ?>
+  ?>
