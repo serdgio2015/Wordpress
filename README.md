@@ -14,4 +14,11 @@
   <? endwhile; endif; wp_reset_query(); ?>  
   
   
-- Дополнительное поле - <?php echo get_post_meta($post->ID, 'year', true); ?>
+- Дополнительное поле - <?php echo get_post_meta($post->ID, 'year', true); ?>  
+- Ссылка на большую картинку:  
+  <?php   
+
+								    $large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id(), 'large' );  
+								    echo $large_image_url[0]  
+
+				    			 ?>
