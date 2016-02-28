@@ -23,3 +23,6 @@
   echo $large_image_url[0]  
 
   ?>
+- вывод комментариев в comments.php - <?php wp_list_comments(); ?>
+- вывод комментариев на странице - <?php comments_template( 'comments.php' ); ?>
+
