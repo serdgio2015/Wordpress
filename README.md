@@ -19,7 +19,8 @@
 
 - Теги - <?php the_tags(); ?>  
 - Рубрики - <?php the_category(); ?>  
-- Время публикации поста - <?php the_time('d-m-Y'); ?>  
+- Время публикации поста - <?php the_time('d-m-Y'); ?> 
+- Автор поста - <?php the_author(); ?>   
 
   <? endwhile; endif; wp_reset_query(); ?>
   
