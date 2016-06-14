@@ -10,6 +10,9 @@
   <?php the_title(); ?>  
   <?php the_post(); ?>  
   <?php the_content(); ?>  
+  <?php wp_nav_menu('primary'); ?>
+  
+  
   <?php the_post_thumbnail(array(100, 100)); ?>  
 
   <? endwhile; endif; wp_reset_query(); ?>
