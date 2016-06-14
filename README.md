@@ -11,7 +11,7 @@
   <?php the_post(); ?>  
   <?php the_content(); ?>  
   <?php wp_nav_menu('primary'); ?>  
-- Виджеты - <?php dinamic_sidebar(); ?>
+- Виджеты - <?php dynamic_sidebar(); ?>
   
   
   <?php the_post_thumbnail(array(100, 100)); ?>  
