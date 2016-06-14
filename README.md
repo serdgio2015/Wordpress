@@ -17,6 +17,9 @@
   <?php the_post_thumbnail("thumbnail"); ?>  
   <?php the_post_thumbnail(array(100, 100)); ?>  
 
+- Теги - <?php the_tags(); ?>  
+- Рубрики <?php the_category(); ?>  
+
   <? endwhile; endif; wp_reset_query(); ?>
   
   - Переход на страницу записи. В ссылку заголовка записи вставляется - <?php the_permalink(); ?>
