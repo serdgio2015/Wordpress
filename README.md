@@ -14,6 +14,7 @@
 - Виджеты - <?php dynamic_sidebar(); ?>
   
   
+  <?php the_post_thumbnail("thumbnail"); ?>  
   <?php the_post_thumbnail(array(100, 100)); ?>  
 
   <? endwhile; endif; wp_reset_query(); ?>
