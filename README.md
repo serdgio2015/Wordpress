@@ -13,7 +13,7 @@
 
   <? endwhile; endif; wp_reset_query(); ?>
   
-  - Переход на страницу записи. В ссылку заголовка записи вставляется - <?php the permalink(); ?>
+  - Переход на страницу записи. В ссылку заголовка записи вставляется - <?php the_permalink(); ?>
   
   
 - Дополнительное поле - <?php echo get_post_meta($post->ID, 'year', true); ?>  
