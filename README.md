@@ -8,8 +8,8 @@
   <?php while ( have_posts() ) : the_post(); ?>   
   <?php endwhile; ?> 
 - Если постов не нашлось пишем под постом:  
-  <?php if ( have_posts()); ?> 
-    Постов не нашлось
+  <?php if ( have_posts()); ?>   
+    Постов не нашлось  
   <?php endif; ?> 
 
   <?php the_title(); ?>  
