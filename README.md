@@ -1,7 +1,7 @@
 # Wordpress
 - Подключение стилей - <?php bloginfo("template_directory"); ?>  
-- Заголовок сайта - <?php echo $blog_title = get_bloginfo( 'name' ); ?>  
-- Описание сайта - <?php echo $blog_title = get_bloginfo( 'description' ); ?>  
+- Заголовок сайта - <?php bloginfo( 'name' ); ?>  
+- Описание сайта - <?php bloginfo( 'description' ); ?>  
 - Заголовок рубрики - <?php echo get_cat_name(ID) ?>  
 - Описание рубрики - <?php echo category_description( $category_id ); ?>  
 - Вывод цитаты - <?php the_excerpt(); ?>  
