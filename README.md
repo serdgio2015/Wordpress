@@ -7,6 +7,10 @@
 - Вывод цитаты - <?php the_excerpt(); ?>  
   <?php while ( have_posts() ) : the_post(); ?>   
   <?php endwhile; ?> 
+- Если постов не нашлось пишем под постом:  
+  <?php if ( have_posts()); ?> 
+    <h3>Постов не нашлось</h3>
+  <?php endif; ?> 
 
   <?php the_title(); ?>  
   <?php the_post(); ?>  
