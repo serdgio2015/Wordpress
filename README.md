@@ -18,7 +18,8 @@
   <?php the_post_thumbnail(array(100, 100)); ?>  
 
 - Теги - <?php the_tags(); ?>  
-- Рубрики <?php the_category(); ?>  
+- Рубрики - <?php the_category(); ?>  
+- Время публикации поста - <?php the_time('d-m-Y'); ?>  
 
   <? endwhile; endif; wp_reset_query(); ?>
   
