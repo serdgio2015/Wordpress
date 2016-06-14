@@ -5,7 +5,8 @@
 - Заголовок рубрики - <?php echo get_cat_name(ID) ?>  
 - Описание рубрики - <?php echo category_description( $category_id ); ?>  
 - Вывод цитаты - <?php the_excerpt(); ?>  
-  <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>  
+  <?php while ( have_posts() ) : the_post(); ?> 
+  <?php endwhile; ?> 
 
   <?php the_title(); ?>  
   <?php the_post(); ?>  
